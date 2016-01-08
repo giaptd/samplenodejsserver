@@ -1,0 +1,28 @@
+{
+  "name": "myrestfulapp",
+  "version": "1.0.0",
+  "description": "my first app using nodejs web server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"hello world\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giaptd/samplenodejsserver.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Giap Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giaptd/samplenodejsserver/issues"
+  },
+  "homepage": "https://github.com/giaptd/samplenodejsserver#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "jwt-simple": "^0.4.0",
+    "morgan": "^1.6.1"
+  }
+}
